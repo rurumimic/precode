@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,node
+# Created by https://www.toptal.com/developers/gitignore/api/vim,node,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,deno
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,node,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,deno
 
 ### certificates ###
 *.pem
@@ -8,6 +8,17 @@
 *.cer
 *.der
 *.priv
+
+### Deno ###
+/.idea/
+/.vscode/
+
+/node_modules
+
+.env
+*.orig
+*.pyc
+*.swp
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -183,7 +194,6 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
@@ -337,5 +347,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,node
+# End of https://www.toptal.com/developers/gitignore/api/vim,node,tags,emacs,linux,macos,windows,powershell,certificates,visualstudiocode,deno
 
