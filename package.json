@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "precode",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Markdown file browser with HTML-escaped",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": ["markdown", "browser", "html-escape"],
+  "author": "",
+  "license": "MIT"
+}
